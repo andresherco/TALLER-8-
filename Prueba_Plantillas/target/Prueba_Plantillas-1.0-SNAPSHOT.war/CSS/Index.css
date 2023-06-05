@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+    color: #000000;
+}
+
+body {
+    background: linear-gradient(#131212, #27a19d);
+    display: flex;
+    flex-direction: column; /* Añade esta línea para que el contenido se apile verticalmente */
+    align-items: center;
+    justify-content: center; /* Centra verticalmente el contenido */
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin-bottom: 20px; /* Añade un margen inferior para separar el formulario del footer */
+}
+
+#register {
+    padding: 1.5rem;
+    text-align: center; /* Centra horizontalmente el contenido del footer */
+    color: #01010e; /* Cambia el color del texto a tu elección */
+    font-size: 14px; /* Cambia el tamaño de fuente a tu elección */
+}
+
+.titulo-datos {
+    /* Estilos para el texto "Ingresa tus datos" */
+    color: #050000; /* Cambia el color a tu elección */
+    font-size: 18px; /* Cambia el tamaño de fuente a tu elección */
+    /* Otros estilos que desees aplicar */
+}

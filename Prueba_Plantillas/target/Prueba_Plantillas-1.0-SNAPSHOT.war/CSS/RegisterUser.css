@@ -1,0 +1,33 @@
+body {
+    background-color: #ebeeee;
+    margin-bottom: 50px; /* Aumenta el margen inferior para dar espacio al footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    float: right;
+    margin-right: 10px;
+}
+
+h1 {
+    background-color: #e5e8e8;
+    padding: 10px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+footer {
+    width: 100%;
+    background-color: #ebeeee; /* Cambia el color del footer aquí */
+    padding: 10px;
+    text-align: center;
+}
